@@ -7,7 +7,6 @@ class I386ElfGcc < Formula
   sha256 '1934f3f68fe477299fe929e527c62d800f8b1b01ca74cc218f90459715ace296'
   revision 1
 
-  depends_on 'libmpc'
   depends_on 'i386-elf-binutils'
 
   def install
